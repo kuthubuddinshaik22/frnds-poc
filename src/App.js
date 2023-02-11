@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Register from './pages/Register'
 import Events from './pages/Events'
