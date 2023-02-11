@@ -9,8 +9,8 @@ function App() {
     <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route path="/" exact element={<Register />} />
-        <Route path="/register" exact element={<Register />} />
-        <Route path="/events" exact element={<Events />} />
+        <Route path="register" exact element={<Register />} />
+        <Route path="events" exact element={<Events />} />
       </Routes>
     </BrowserRouter>
   );
